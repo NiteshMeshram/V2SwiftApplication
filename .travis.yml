@@ -10,4 +10,4 @@
 
 language: objective-c
 xcode_project: V2SwiftApplication.xcodeproj # path to your xcodeproj folder
-xcode_scheme: V2SwiftApplication
+#xcode_scheme: V2SwiftApplication
