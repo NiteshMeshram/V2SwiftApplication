@@ -59,7 +59,9 @@ script:
 #fi
 
 #command to build the .app for specific scheme
-- xctool -workspace "$APP_WORKSPACE_PATH" -scheme "$APP_SCHEME" -sdk iphoneos -configuration Release OBJROOT="$PWD/build" SYMROOT="$PWD/build" ONLY_ACTIVE_ARCH=NO
+- xctool -workspace "$APP_WORKSPACE_PATH" -sdk iphoneos -configuration Release OBJROOT="$PWD/build" SYMROOT="$PWD/build" ONLY_ACTIVE_ARCH=NO
+
+#- xctool -workspace "$APP_WORKSPACE_PATH" -scheme "$APP_SCHEME" -sdk iphoneos -configuration Release OBJROOT="$PWD/build" SYMROOT="$PWD/build" ONLY_ACTIVE_ARCH=NO
 
 #- xctool -workspace "$APP_WORKSPACE_PATH" -scheme "$APP_SCHEME.$APP_BUILD_ENV" -sdk iphoneos -configuration "$APP_BUILD_ENV" OBJROOT="$PWD/build" SYMROOT="$PWD/build" ONLY_ACTIVE_ARCH=NO
 
@@ -82,7 +84,7 @@ after_success:
 #based on specified tokens and ids when all the command are executed successfuly
 #This sign will upload the .ipa to Hockey App
 
-#- "./scripts/sign-and-upload.sh"
+- "./scripts/sign-and-upload.sh"
 
 #executed after failed execution of "script"
 after_failure:
