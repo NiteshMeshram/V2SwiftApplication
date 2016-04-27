@@ -1,4 +1,6 @@
 #!/bin/sh
+
+##/Users/nitesh.meshram/Documents/v2Apps/POCV2/V2SwiftApplication/V2SwiftApplication.xcodeproj
 export APP_FULLNAME=SwiftAPP
 
 #APP_PROFILE_PATH : GITHUB repository relative path for the provisioning profile.
@@ -11,12 +13,12 @@ export APP_SCRIPT_PATH="$PWD/scripts/certs/"
 #APP_NAME : Name of the .app and .ipa file
 export APP_NAME="V2TravisSwifRND"
 #APP_WORKSPACE_PATH : Relative path of the .xcworkspace file
-export APP_WORKSPACE_PATH="./V2TravisSwifRND.xcworkspace"
+export APP_WORKSPACE_PATH="./V2SwiftApplication.xcworkspace"
 #APP_SCHEME : Name of the xCode scheme. It is assume that all the scheme has the same name.
 #             It is automatically suffixed by scheme (DEV/QA/UAT)
-export APP_SCHEME="V2TravisSwifRND"
+export APP_SCHEME="V2SwiftApplication"
 #Settings For Getting Pivotal Notes : Settings For Getting Pivotal Notes
-export INFOPLIST_FILE="$PWD/V2TravisSwifRND/Info.plist"
+export INFOPLIST_FILE="$PWD/V2SwiftApplication/Info.plist"
 #- PIVOTAL_PROJECT_ID=1114232
 #- PIVOTAL_TOKEN='763aa9881c2d64966f6c17be60926221'
 export OUTPUT_FILE_NAME='jsonresponse.text'
