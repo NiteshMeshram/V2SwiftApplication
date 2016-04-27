@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>815A1CF5-8D8B-45B3-A421-FBBC454F0BF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>V2SwiftApplication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F8611F4D360676E9DA20BED58BF982536AC06A9</key>
+		<string>github.com:v2Nitesh/V2SwiftApplication.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>V2SwiftApplication.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F8611F4D360676E9DA20BED58BF982536AC06A9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:v2Nitesh/V2SwiftApplication.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F8611F4D360676E9DA20BED58BF982536AC06A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F8611F4D360676E9DA20BED58BF982536AC06A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>V2SwiftApplication</string>
+		</dict>
+	</array>
+</dict>
+</plist>
