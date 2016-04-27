@@ -96,7 +96,7 @@ after_failure:
 #If the .ipa file is generated successfully by sign step
 #than upload script will upload to Hockey app.
 
-#- "./scripts/sign-and-upload.sh"
+- "./scripts/sign-and-upload.sh"
 
 
 
