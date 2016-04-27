@@ -48,4 +48,4 @@ echo "Line 2"
 echo "Line 3"
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-cp $PWD/scripts/profile/Distribution.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
+cp $PWD/scripts/profile/Distribution_Swift.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
