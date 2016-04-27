@@ -1,7 +1,7 @@
 #/Users/nitesh.meshram/Documents/v2Apps/POCV2/V2SwiftApplication/V2SwiftApplication.xcodeproj
 language: objective-c
 xcode_workspace: V2SwiftApplication.xcodeproj # path to your xcodeproj folder
-xcode_scheme: V2SwiftApplication
+#xcode_scheme: V2SwiftApplication
 
 
 
